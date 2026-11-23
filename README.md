@@ -17,6 +17,8 @@ Alles Projektspezifische (Übersetzung `msg`/`str`, `berechnungErforderlich`, `t
 2. Hier committen.
 3. `./dr-tabelle-verteilen.sh` (Status) und `./dr-tabelle-verteilen.sh --kopieren`.
 4. In jedem Projekt `npm run build`, testen, committen, hochladen.
+5. `./dr-tabelle-pushen.sh` (zeigt, was gepusht würde) und `./dr-tabelle-pushen.sh --push`: pusht dieses Repo
+   und alle Projekte mit lokalen Commits. Repos, auf denen GitHub neuere Commits hat, werden übersprungen.
 
 Neues Projekt: in `dr-tabelle-verteilen.sh` bei `PROJEKTE` (und ggf. `ziel()`) eintragen und eine
 `tabelle_umgebung.ts` nach dem Muster von quer_2 (nur Deutsch) oder duennqs (mehrsprachig) anlegen.
